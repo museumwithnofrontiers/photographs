@@ -14,19 +14,19 @@
 
 /* ── Palette ────────────────────────────────────────────────────────────────
    Ported from the legacy gallery's own SCSS variables (the legacy env key for
-   Photographs is `dca`, not `photographs`), plus the shared MWNF Galleries values.
+   Photographs is `pho`), plus the shared MWNF Galleries values.
 
-   Photographs is its own brand — olive/khaki where amulets is terracotta — so
+   Photographs is its own brand — each legacy gallery had its own palette — so
    nothing here is shared with a sibling gallery. --theme-dark-rgb is the same
    colour as --theme-dark in a form the translucent overlays can take an alpha
    on, so a palette change never has to be chased into a component. */
 :root {
-  --theme-dark:        #504819;  /* banner, header, footer */
-  --theme-dark-rgb:    80, 72, 25;
-  --theme-medium-dark: #6b612b;  /* dark menu items */
-  --theme-medium:      #7e743e;  /* text background, search button */
-  --theme-light:       #91864d;  /* light menu items */
-  --background-color:  #fffff0;  /* page background */
+  --theme-dark:        #331412;  /* banner, header, footer */
+  --theme-dark-rgb:    51, 20, 18;
+  --theme-medium-dark: #4f3129;  /* dark menu items */
+  --theme-medium:      #6c4f49;  /* text background, search button */
+  --theme-light:       #a58b7c;  /* light menu items */
+  --background-color:  #f8eee8;  /* page background */
 
   --shadow-grey:  #707070;
   --link-blue:    #0000ff;
